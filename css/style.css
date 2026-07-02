@@ -1,0 +1,41 @@
+/* ===================================================
+   Fotocopy ERP
+   Version : 0.1
+   Author  : Mohamad Afifuddin
+   =================================================== */
+
+:root{
+
+    --primary:#1E3A8A;
+    --secondary:#F97316;
+
+    --success:#16A34A;
+    --danger:#DC2626;
+    --warning:#EAB308;
+
+    --background:#F8FAFC;
+
+    --card:#FFFFFF;
+
+    --text:#1F2937;
+
+    --border:#E5E7EB;
+
+    --radius:12px;
+
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI,Tahoma,sans-serif;
+}
+
+body{
+
+    background:var(--background);
+
+    color:var(--text);
+
+}
